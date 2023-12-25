@@ -23,6 +23,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 };
-fieldset{
-width: 300px;
+div.timer{
+  display: flex;
+};
+div .field{
+  display: flex;
+  flex-direction: column;
+  align-items: center
 };

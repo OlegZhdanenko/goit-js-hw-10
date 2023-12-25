@@ -26,7 +26,7 @@ function onSubmit(event) {
             }, getDelay)
             )
         };
-        
+       form.reset() 
     });
     promice.then(value => console.log(`✅ Fulfilled promise in ${getDelay}ms`))
             .catch(value => console.log(`❌ Rejected promise in ${getDelay}ms`));

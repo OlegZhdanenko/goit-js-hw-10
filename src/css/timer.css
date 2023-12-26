@@ -1,0 +1,17 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.timer{
+    display: flex;
+    gap: 20px;
+}
+input{
+    width: 180px;
+    margin-bottom: 30px;
+}
+span.value{
+    font-size: 35px;
+}

@@ -1,14 +1,19 @@
 
 button{
-    box-sizing: border-box;
+    
     width: 300px;
-};
+}
 
-fieldset.fieldset{
-    background-color: aqua;
-    width: 300px;
-};
-label.form-label{
+.fieldset{
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 10px;
+}
+.form-label{
     display: flex;
     flex-direction: column;
-};
+}
+.form-label>input{
+    width: 290px;
+    height: 25px;
+}

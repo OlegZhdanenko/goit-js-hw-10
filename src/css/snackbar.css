@@ -1,12 +1,11 @@
 
-
-
 button{
     box-sizing: border-box;
     width: 300px;
 };
 
 fieldset.fieldset{
+    background-color: aqua;
     width: 300px;
 };
 label.form-label{
